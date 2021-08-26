@@ -1,0 +1,26 @@
+h2{
+    color: grey;
+    opacity: 0.9;
+    margin-top: 70px;
+    font-size: 60px;
+    line-height: 30px;
+}
+hr{
+    width: 15%;
+    margin-left: 0px;
+    border:6px solid yellow;
+    
+}
+#sec1{
+    margin-top: 80px;
+}
+#sec1 hr{
+    width: 15%;
+    margin-left: 0px;
+    border: 1px solid grey;
+}
+body{
+    background-image: url("about.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
