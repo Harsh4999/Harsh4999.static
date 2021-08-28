@@ -1,0 +1,464 @@
+h2{
+    color: grey;
+    opacity: 0.9;
+    margin-top: 70px;
+    font-size: 60px;
+    line-height: 30px;
+}
+hr{
+    width: 15%;
+    margin-left: 0px;
+    border:6px solid yellow;
+    
+}
+p{
+    margin-top: 1em;
+    margin-right: 0px;
+    margin-bottom: 1em;
+    margin-left: 0pxs;
+    position: absolute;
+    font-size: 20px;
+}
+body{
+    background-color: white;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-y: scroll; 
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+
+canvas{
+    
+    color: white;
+    background-color: white;
+
+}
+
+
+/* Cpp */
+.cppmain{
+  float: left;
+}
+.cpp{
+   margin-top: 120px;
+   margin-left: 250px;
+   height: 50px;
+   width: 50px;
+   font-size: 50px;
+}
+.cpp h2{
+  font-size: 40px;
+  left: 0px;
+}
+.cpp #p1{
+  font-size: 20px;
+  opacity: 0.7;
+  top: 470px;
+  left: 230px;      
+}
+
+
+.circular{
+    height:100px;
+    width: 100px;
+    position: relative;
+    transform:scale(2);
+    top: 200px;
+    left: 70px;
+    opacity: 0.8;
+  }
+  .circular .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: black;
+    border-radius: 100%;
+   
+  }
+  .circular .number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:18px;
+    font-weight:500;
+    color: white;
+    opacity: 0.8;
+  }
+  .circular .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+  }
+  .circle .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: yellow
+  }
+  .circle .left .progress{
+    z-index:1;
+    animation: left 1s linear both;
+  }
+  @keyframes left{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .circle .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+  }
+  .circle .right .progress{
+    animation: right 1s linear both;
+    animation-delay:1s;
+  }
+  @keyframes right{
+    100%{
+      transform: rotate(110deg);
+    }
+  }
+  
+
+
+/* Java */
+  .java{
+      float: right;
+      width: 400px;
+      margin-right: 200px;
+      margin-top: 10px;
+  }
+.java h2{
+  font-size: 40px;
+  margin-top: 100px;
+  margin-left: 240px;
+}
+  .java p{
+    font-size: 20px;
+    left: 630px;
+    top: 480px;
+    opacity: 0.7;
+  }
+
+  .circular1{
+    height:100px;
+    width: 100px;
+    position: relative;
+    transform:scale(2);
+    top: 200px;
+    left: 70px;
+    opacity: 0.8;
+  }
+  .circular1 .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: black;
+    border-radius: 100%;
+   
+  }
+  .circular1 .number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:18px;
+    font-weight:500;
+    color: white;
+    opacity: 0.8;
+  }
+  .circular1 .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+  }
+
+
+  .circle1 .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: yellow
+  }
+  .circle1 .left .progress{
+    z-index:1;
+    animation: left 1s linear both;
+  }
+  @keyframes left{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .circle1 .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+  }
+  .circle1 .right .progress{
+    animation: right1 1s linear both;
+    animation-delay:1s;
+  }
+  @keyframes right1{
+    100%{
+      transform: rotate(150deg);
+    }
+  }
+
+  /* JS */
+
+
+  .js{
+    float: left;
+    width: 400px;
+ 
+  }
+  .js .js1 h2{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 240px;
+  }
+  .js .js1 p{
+    font-size: 20px;
+    left: 230px;
+    top: 750px;
+    opacity: 0.7;
+  }
+ 
+
+  .circular2{
+    height:100px;
+    width: 100px;
+    position: relative;
+    transform:scale(2);
+    top: 150px;
+    left: 70px;
+    opacity: 0.8;
+  }
+  .circular2 .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: black;
+    border-radius: 100%;
+   
+  }
+  .circular2 .number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:18px;
+    font-weight:500;
+    color: white;
+    opacity: 0.8;
+  }
+  .circular2 .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+  }
+ 
+
+  .circle2 .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: yellow
+  }
+  .circle2 .left .progress{
+    z-index:1;
+    animation: left2 1s linear both;
+  }
+  @keyframes left2{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .circle2 .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+  }
+  .circle2 .right .progress{
+    animation: right2 1s linear both;
+    animation-delay:1s;
+  }
+  @keyframes right2{
+    100%{
+      transform: rotate(130deg);
+    }
+  }
+
+
+/* Spring */
+
+
+  .Spring{
+    float: right;
+    width: 400px;
+    padding-top: 0px;
+    margin-right: 180px;
+  }
+  .Spring .sp h2{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 230px;
+  }
+  .Spring .sp #sp1{
+    font-size: 20px;
+    opacity: 0.7;
+    top: 750px;
+    right: 216px;
+  }
+  .circular3{
+    height:100px;
+    width: 100px;
+    position: relative;
+    transform:scale(2);
+    top: 150px;
+    left: 70px;
+    opacity: 0.8;
+  }
+  .circular3 .inner{
+    position: absolute;
+    z-index: 6;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin: -40px 0 0 -40px;
+    background: black;
+    border-radius: 100%;
+   
+  }
+  .circular3 .number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    font-size:18px;
+    font-weight:500;
+    color: white;
+    opacity: 0.8;
+  }
+  .circular3 .bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 100px, 100px, 50px);
+  }
+
+  .circle3 .bar .progress{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-border-radius: 100%;
+    clip: rect(0px, 50px, 100px, 0px);
+    background: yellow
+  }
+  .circle3 .left .progress{
+    z-index:1;
+    animation: left 1s linear both;
+  }
+  @keyframes left{
+    100%{
+      transform: rotate(180deg);
+    }
+  }
+  .circle3 .right {
+    transform: rotate(180deg);
+    z-index:3;
+   
+  }
+  .circle3 .right .progress{
+    animation: right3 1s linear both;
+    animation-delay:1s;
+  }
+  @keyframes right3{
+    100%{
+      transform: rotate(110deg);
+    }
+  }
+
+  
+
+  /* Skills */
+  .areas{
+    margin-top: 700px;
+  }
+  .areas hr{
+    border: 1px solid gray;
+    width: 650px;
+    margin-left: 70px;
+    opacity: 0.6;
+  }
+  .areas ul{
+    list-style: none;
+    opacity: 0.8;
+  }
+  ul li::before{
+    content: '✓';
+  }
+  .areas #ul1{
+    float: left;
+  }
+ .areas #ul2{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+  }
+  .areas #ul3{
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+  }
+  .areas #ul4{
+    margin-top: 40px;
+    margin-left: 420px;
+  }
+  .areas h3{
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 330px;
+  }

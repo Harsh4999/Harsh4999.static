@@ -30,7 +30,7 @@ hr{
 }
 iframe{
     position: absolute;
-    width: 900px;
+    width: 1000px;
 	height: 630px;
     top:0;
 	bottom: 0;
@@ -39,4 +39,15 @@ iframe{
     margin-left: 200px;
      /* background-color: yellow;  */
     color: white;
+    float: left;
 }
+
+
+.side{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  

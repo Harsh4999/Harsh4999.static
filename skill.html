@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="skill.css">
+   
+    <script language="javascript">
+        const numb = document.querySelector(".number");
+let counter = 0;
+setInterval(() => {
+  if(counter == 100 ){
+    clearInterval();
+  }else{
+    counter+=1;
+    console.log(numb.textContent);
+    numb.textContent = counter + "%";
+  }
+}, 10);
+    </script>
+    <title>Document</title>
+</head>
+<body id="b">
+    <div>
+        <h2>Skills</h2>
+        <hr>
+    </div>
+    <div>
+        <h5>JUST MY AWESOME SKILLS</h5>
+        <p>Im a developer with MEAN stack and also have experience on Spring Framework. <br> 
+            I love to play with REST APIs.Backend geek with pretty good working experience 
+            on Spring. <br> Cloud Engineer with hands on experience with AWS and Azure Cloud. <br> 
+            I have actively contributed in building Nodejs Backend projects such as Blender-
+            Whatsapp bot.
+        </p>
+    </div>
+    
+       
+   
+    <div class="cppmain">
+    <div class="circular">
+        <div class="inner"></div>
+        <div class="number">80%</div>
+        <div class="circle">
+          <div class="bar left">
+            <div class="progress"></div>
+          </div>
+          <div class="bar right">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cpp">
+        <h2 >C/C++</h2>
+      <p id="p1">Intermediate 1 year</p>
+      </div> 
+    </div>
+
+      <div class="java">
+      <div class="circular1">
+        <div class="inner"></div>
+        <div class="number">90%</div>
+        <div class="circle1">
+          <div class="bar left">
+            <div class="progress"></div>
+          </div>
+          <div class="bar right">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+       <div class="java1">
+        <h2 >Spring/
+          Java</h2>
+      <p id="jp2">Advanced 2 years</p>    
+      </div>
+    </div>
+
+
+    <div class="js">
+      <div class="circular2">
+        <div class="inner"></div>
+        <div class="number">85%</div>
+        <div class="circle2">
+          <div class="bar left">
+            <div class="progress"></div>
+          </div>
+          <div class="bar right">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+       <div class="js1">
+        <h2 >Java Script</h2>
+         <p id="js1">Advanced 2 years</p>    
+      </div>
+    </div>
+    
+   
+
+
+    <div class="Spring">
+      <div class="circular3">
+        <div class="inner"></div>
+        <div class="number">80%</div>
+        <div class="circle3">
+          <div class="bar left">
+            <div class="progress"></div>
+          </div>
+          <div class="bar right">
+            <div class="progress"></div>
+          </div>
+        </div>
+      </div>
+       <div class="sp">
+        <h2 >Node <br>
+          Js
+        </h2>
+         <p id="sp1">Intermediate 1 year</p>    
+      </div>
+   </div>
+
+
+
+   <div class="areas">
+     <hr>
+     <h3>Knowledge</h3>
+    <ul id="ul1">
+      <li>C/C++ </li>
+      <li>JAVA</li>
+      <li>HTML/CSS </li>
+      <li>Node</li>
+      <li>Spring</li>
+    </ul>
+
+    <ul id="ul2">
+      <li>REST API</li>
+      <li>CLOUD</li>
+      <li>Docker</li>
+      <li>Angular</li>
+      <li>Python</li>
+    </ul>
+
+    <ul id="ul3">
+      <li>TypeScript</li>
+      <li>Hibernate</li>
+      <li>Mysql</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+
+    <ul id="ul4">
+      <li>Heroku</li>
+      <li>STS</li>
+      <li>Git</li>
+      <li>Eclipse</li>
+      <li>AWS</li>
+    </ul>
+  </div>
+    
+</body>
+</html>
